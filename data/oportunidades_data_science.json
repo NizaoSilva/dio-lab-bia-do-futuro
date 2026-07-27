@@ -1,30 +1,37 @@
 {
   "perfil_usuario": {
     "formacao_origem": "Engenharia Civil",
-    "formacao_alvo": "Ciência de Dados / Engenharia de Dados",
-    "objetivo_principal": "Identificar oportunidades de monetização, aprender competências de mercado e criar planos de ação pragmáticos.",
-    "diretriz": "Execução estrita do pedido, sem divagações, focando apenas no que foi solicitado."
+    "formacao_alvo": "Ciência de Dados / Engenharia de Dados & Cibersegurança",
+    "objetivo_principal": "Identificar oportunidades de monetização, aprender competências de mercado e criar planos de ação pragmáticos com foco em segurança da informação e LGPD.",
+    "diretriz": "Execução estrita do pedido, sem divagações, focando em pragmatismo e proteção de dados."
   },
   "categorias_oportunidades": [
     {
+      "id": "cybersecurity_data_compliance",
+      "titulo": "Cibersegurança de Dados, SecOps & Conformidade LGPD",
+      "descricao": "Auditoria de segurança em pipelines de dados, detecção de anomalias em logs corporativos com Machine Learning e adequação de bancos de dados à LGPD.",
+      "skills_necessarias": ["Python (Scikit-Learn/Pandas para Análise de Logs)", "NIST Cybersecurity Framework", "ISO 27001", "LGPD/GDPR", "Segurança em APIs"],
+      "potencial_monetizacao": "Consultorias de segurança de dados para PMEs e construtoras (R$ 4.000 - R$ 12.000 por auditoria/projeto)."
+    },
+    {
       "id": "proptech_analytics",
       "titulo": "Inteligência de Dados para Construção e Imobiliárias (PropTech)",
-      "descricao": "Automação de relatórios de obras, previsão de custos de insumos e dashboards de acompanhamento financeiro de empreendimentos.",
-      "skills_necessarias": ["Python", "Pandas", "Power BI / Streamlit", "SQL", "Análise Preditiva"],
+      "descricao": "Automação de relatórios de obras, previsão de custos de insumos e dashboards de acompanhamento financeiro com acesso seguro e restrito.",
+      "skills_necessarias": ["Python", "Pandas", "Power BI / Streamlit", "SQL", "Análise Preditiva", "Autenticação & Controle de Acesso"],
       "potencial_monetizacao": "Consultoria freela, criação de dashboards sob demanda, automação de planilhas."
     },
     {
       "id": "data_analytics_freelance",
       "titulo": "Análise de Dados Executiva e BI para PMEs",
-      "descricao": "Estruturação de bancos de dados, limpeza de dados e criação de visões executivas de vendas e fluxo de caixa.",
-      "skills_necessarias": ["SQL", "Power BI", "ETL em Python", "Engenharia de Prompt"],
+      "descricao": "Estruturação de bancos de dados, limpeza de dados e criação de visões executivas de vendas mantendo governança de dados.",
+      "skills_necessarias": ["SQL", "Power BI", "ETL em Python", "Engenharia de Prompt", "Anonimização de Dados"],
       "potencial_monetizacao": "Projetos de valor fixo em plataformas de trabalho remoto (Workana, Upwork)."
     },
     {
       "id": "ai_agents_automation",
-      "titulo": "Desenvolvimento de Agentes de IA e RAG Local",
-      "descricao": "Construção de assistentes privados locais (usando Ollama e LLMs) para busca em documentos internos e suporte de decisões de negócios.",
-      "skills_necessarias": ["Python", "Ollama", "LangChain/LlamaIndex", "Streamlit", "Engenharia de Prompt"],
+      "titulo": "Desenvolvimento de Agentes de IA e RAG Local Seguro",
+      "descricao": "Construção de assistentes privados locais (usando Ollama e LLMs) para busca em documentos internos garantindo total soberania e proteção contra vazamento de dados (Zero Data Leakage).",
+      "skills_necessarias": ["Python", "Ollama", "LangChain/LlamaIndex", "Streamlit", "OWASP Top 10 para LLMs"],
       "potencial_monetizacao": "Soluções corporativas personalizadas para escritórios e empresas regionais."
     }
   ]
