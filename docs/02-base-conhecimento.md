@@ -1,55 +1,14 @@
-# Base de Conhecimento
+# 📚 Base de Conhecimento do Agente MBA
 
-## Dados Utilizados
+A base de conhecimento do Agente MBA está estruturada na pasta `data/` em arquivos padronizados JSON/CSV, permitindo fácil atualização e extensão.
 
-Descreva se usou os arquivos da pasta `data`, por exemplo:
+## Estrutura de Arquivos
 
-| Arquivo | Formato | Utilização no Agente |
-|---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
+| Arquivo | Formato | Descrição |
+|---------|---------|-----------|
+| `data/oportunidades_data_science.json` | JSON | Perfil do usuário (Engenharia Civil -> Ciência de Dados) e categorias de projetos monetizáveis (PropTech, BI para PMEs, IA Local). |
+| `data/frameworks_negocios.json` | JSON | Metodologias de gestão (SWOT, Matriz de Viabilidade, Lean MVP) e médias de precificação de serviços no mercado nacional. |
 
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+## Como a Base é Utilizada pelo Agente
 
----
-
-## Adaptações nos Dados
-
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
-
-[Sua descrição aqui]
-
----
-
-## Estratégia de Integração
-
-### Como os dados são carregados?
-> Descreva como seu agente acessa a base de conhecimento.
-
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
-
-### Como os dados são usados no prompt?
-> Os dados vão no system prompt? São consultados dinamicamente?
-
-[Sua descrição aqui]
-
----
-
-## Exemplo de Contexto Montado
-
-> Mostre um exemplo de como os dados são formatados para o agente.
-
-```
-Dados do Cliente:
-- Nome: João Silva
-- Perfil: Moderado
-- Saldo disponível: R$ 5.000
-
-Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
-...
-```
+Ao iniciar a aplicação `app.py`, o conteúdo dos arquivos JSON é lido e injetado diretamente nas instruções de sistema (System Prompt) que alimentam o modelo local via Ollama. Isso garante que o agente responda considerando os nichos de atuação específicos do usuário.

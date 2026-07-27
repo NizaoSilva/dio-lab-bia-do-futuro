@@ -1,0 +1,21 @@
+{
+  "frameworks": [
+    {
+      "nome": "Análise SWOT Simplificada",
+      "aplicacao": "Avaliar Forças, Oportunidades, Fraquezas e Ameaças de uma nova ideia de serviço ou projeto."
+    },
+    {
+      "nome": "Matriz de Viabilidade (Retorno vs Complexidade)",
+      "aplicacao": "Classificar oportunidades em Ganho Rápido (Quick Win), Projeto Estratégico, Tarefa Simples ou Descarte."
+    },
+    {
+      "nome": "Lean MVP (Produto Mínimo Viável)",
+      "aplicacao": "Definir o menor escopo possível para lançar uma solução de dados/automação no mercado em até 7 dias."
+    }
+  ],
+  "precificacao_orientacao": {
+    "dashboard_basico": "R$ 800 - R$ 2.000 por projeto",
+    "automacao_etl_python": "R$ 1.500 - R$ 4.000 por pipeline",
+    "agente_ia_local": "R$ 3.000 - R$ 10.000 dependendo da complexidade"
+  }
+}

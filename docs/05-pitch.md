@@ -1,44 +1,12 @@
-# Pitch (3 minutos)
+# 🎤 Pitch Final: Agente MBA
 
-> [!TIP]
-> Você pode usar alguns slides pra apoiar no seu Pitch e mostrar sua solução na prática.
- 
-## Roteiro Sugerido
+## O Problema
+Profissionais que estão migrando ou se especializando em Ciência e Engenharia de Dados muitas vezes possuem muito conhecimento técnico teórico, mas têm dificuldade em identificar **oportunidades reais de negócio** para gerar renda rápida e aplicar seu aprendizado na prática.
 
-### 1. O Problema (30 seg)
-> Qual dor do cliente você resolve?
+## A Solução: Agente MBA
+Um assistente virtual privado, **100% offline e gratuito** (Streamlit + Ollama), configurado especificamente para atuar como um copiloto analítico de negócios.
 
-[Sua descrição aqui]
-
-### 2. A Solução (1 min)
-> Como seu agente resolve esse problema?
-
-[Sua descrição aqui]
-
-### 3. Demonstração (1 min)
-> Mostre o agente funcionando (pode ser gravação de tela)
-
-[Descreva o que será mostrado]
-
-### 4. Diferencial e Impacto (30 seg)
-> Por que essa solução é inovadora e qual é o impacto dela na sociedade?
-
-[Sua descrição aqui]
-
----
-
-## Checklist do Pitch
-
-- [ ] Duração máxima de 3 minutos
-- [ ] Problema claramente definido
-- [ ] Solução demonstrada na prática
-- [ ] Diferencial explicado
-- [ ] Áudio e vídeo com boa qualidade
-
----
-
-## Link do Vídeo
-
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
-
-[Link do vídeo]
+### Diferenciais:
+1. **Privacidade e Custo Zero:** Roda localmente sem necessidade de chaves de API pagas.
+2. **Execução Estrita:** Não perde tempo com respostas genéricas ou divagações.
+3. **Foco Prático:** Transforma qualquer texto, artigo ou ideia em uma análise de oportunidade + habilidades requeridas + plano de ação passo a passo.

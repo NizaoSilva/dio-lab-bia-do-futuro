@@ -1,0 +1,31 @@
+{
+  "perfil_usuario": {
+    "formacao_origem": "Engenharia Civil",
+    "formacao_alvo": "Ciência de Dados / Engenharia de Dados",
+    "objetivo_principal": "Identificar oportunidades de monetização, aprender competências de mercado e criar planos de ação pragmáticos.",
+    "diretriz": "Execução estrita do pedido, sem divagações, focando apenas no que foi solicitado."
+  },
+  "categorias_oportunidades": [
+    {
+      "id": "proptech_analytics",
+      "titulo": "Inteligência de Dados para Construção e Imobiliárias (PropTech)",
+      "descricao": "Automação de relatórios de obras, previsão de custos de insumos e dashboards de acompanhamento financeiro de empreendimentos.",
+      "skills_necessarias": ["Python", "Pandas", "Power BI / Streamlit", "SQL", "Análise Preditiva"],
+      "potencial_monetizacao": "Consultoria freela, criação de dashboards sob demanda, automação de planilhas."
+    },
+    {
+      "id": "data_analytics_freelance",
+      "titulo": "Análise de Dados Executiva e BI para PMEs",
+      "descricao": "Estruturação de bancos de dados, limpeza de dados e criação de visões executivas de vendas e fluxo de caixa.",
+      "skills_necessarias": ["SQL", "Power BI", "ETL em Python", "Engenharia de Prompt"],
+      "potencial_monetizacao": "Projetos de valor fixo em plataformas de trabalho remoto (Workana, Upwork)."
+    },
+    {
+      "id": "ai_agents_automation",
+      "titulo": "Desenvolvimento de Agentes de IA e RAG Local",
+      "descricao": "Construção de assistentes privados locais (usando Ollama e LLMs) para busca em documentos internos e suporte de decisões de negócios.",
+      "skills_necessarias": ["Python", "Ollama", "LangChain/LlamaIndex", "Streamlit", "Engenharia de Prompt"],
+      "potencial_monetizacao": "Soluções corporativas personalizadas para escritórios e empresas regionais."
+    }
+  ]
+}
