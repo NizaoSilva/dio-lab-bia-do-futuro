@@ -1,31 +1,24 @@
-# Código da Aplicação
+# Código da Aplicação - Agente MBA
 
-Esta pasta contém o código do seu agente financeiro.
+Esta pasta traz a orientação sobre o código da aplicação do **Agente MBA**.
 
-## Estrutura Sugerida
+A aplicação principal do projeto foi implementada na raiz do repositório em [`app.py`](../app.py) para facilidade de execução direta com o Streamlit.
 
-```
-src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
-└── requirements.txt    # Dependências
-```
+## Estrutura do Código:
 
-## Exemplo de requirements.txt
-
-```
-streamlit
-openai
-python-dotenv
+```text
+dio-lab-bia-do-futuro/
+├── app.py              # Interface Streamlit e integração com API do Ollama
+├── requirements.txt    # Dependências do projeto (streamlit, ollama, requests, pandas)
+└── data/               # Base de conhecimento carregada dinamicamente pelo app.py
 ```
 
-## Como Rodar
+## Como Rodar:
 
 ```bash
-# Instalar dependências
+# 1. Instalar dependências
 pip install -r requirements.txt
 
-# Rodar a aplicação
+# 2. Iniciar a aplicação
 streamlit run app.py
 ```

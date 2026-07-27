@@ -1,20 +1,12 @@
-# Exemplos e Referências
+# Exemplos e Referências - Agente MBA
 
-Esta pasta contém exemplos de implementação para cada etapa do desafio.
+Esta pasta reúne referências de implementação para cada uma das 6 etapas do desafio do **Agente MBA (Copiloto de Negócios e Aprendizado)**.
 
-## Vídeos de Referência
-
-> 🎬 Em breve serão disponibilizados vídeos demonstrando a implementação completa de cada etapa, com foco no raciocínio por trás de cada decisão.
-
-| Etapa | Descrição | Link |
-|-------|-----------|------|
-| Documentação | Como definir o caso de uso e arquitetura | [em breve] |
-| Base de Conhecimento | Como usar os dados mockados | [em breve] |
-| Prompts | Como criar prompts eficazes | [em breve] |
-| Aplicação | Como criar o chatbot funcional | [em breve] |
-| Métricas | Como avaliar seu agente | [em breve] |
-| Pitch | Como apresentar sua solução | [em breve] |
-
-## Exemplo de Implementação Simples
-
-Confira na pasta `src/` um exemplo básico de estrutura de aplicação usando Streamlit.
+| Etapa | Descrição | Referência |
+|-------|-----------|------------|
+| 1. Documentação | Especificação do Agente MBA, persona e segurança | [`docs/01-documentacao-agente.md`](../docs/01-documentacao-agente.md) |
+| 2. Base de Conhecimento | Dados mockados em JSON sobre oportunidades em Data Science | [`data/oportunidades_data_science.json`](../data/oportunidades_data_science.json) |
+| 3. Prompts | System prompt estrito e tratamento de casos limite | [`docs/03-prompts.md`](../docs/03-prompts.md) |
+| 4. Aplicação Funcional | Código principal em Streamlit + Ollama local | [`app.py`](../app.py) |
+| 5. Métricas | Matriz de avaliação de aderência, pragmatismo e latência | [`docs/04-metricas.md`](../docs/04-metricas.md) |
+| 6. Pitch | Roteiro executivo do pitch do Agente MBA | [`docs/05-pitch.md`](../docs/05-pitch.md) |
